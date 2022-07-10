@@ -1,0 +1,42 @@
+﻿[
+	{
+		"link": "README.md",
+		"char_ofs": 0,
+		"byte_ofs": 0
+	},
+	{
+		"link": "1-overview/README.md",
+		"char_ofs": 270,
+		"byte_ofs": 511
+	},
+	{
+		"link": "1-overview/1-1-pre-knowledge.md",
+		"char_ofs": 279,
+		"byte_ofs": 526
+	},
+	{
+		"link": "1-overview/1-2-about-auto-backup.md",
+		"char_ofs": 448,
+		"byte_ofs": 812
+	},
+	{
+		"link": "2-use-to-auto-backup/README.md",
+		"char_ofs": 751,
+		"byte_ofs": 1516
+	},
+	{
+		"link": "2-use-to-auto-backup/2-1-setting.md",
+		"char_ofs": 767,
+		"byte_ofs": 1548
+	},
+	{
+		"link": "2-use-to-auto-backup/2-2-execute-auto-backup.md",
+		"char_ofs": 3155,
+		"byte_ofs": 5003
+	},
+	{
+		"link": "2-use-to-auto-backup/2-3-restoration.md",
+		"char_ofs": 4414,
+		"byte_ofs": 6897
+	}
+]
