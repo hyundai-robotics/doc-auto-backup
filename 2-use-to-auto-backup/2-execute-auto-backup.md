@@ -6,7 +6,7 @@
 
 ![](<../_assets/backup_st.png>)
 
-![그림 2.2 자동백업 메시지박스](<../_assets/backup_en.png>)
+![그림. 자동백업 메시지박스](<../_assets/backup_en.png>)
 
 백업되는 위치는 메인보드 내의 아래 경로입니다.
 

@@ -224,7 +224,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 
 ![](<../_assets/backup_st.png>)
 
-![그림 2.2 자동백업 메시지박스](<../_assets/backup_en.png>)
+![그림. 자동백업 메시지박스](<../_assets/backup_en.png>)
 
 백업되는 위치는 메인보드 내의 아래 경로입니다.
 
@@ -270,7 +270,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 
 `[F1: 복원]` 버튼을 클릭하면, 아래와 같은 화면이 나타납니다.
 
-![그림 복원 대화상자](../_assets/restore.png)
+![그림. 복원 대화상자](../_assets/restore.png)
 
 리스트박스에 복원 가능한 지점들이 백업한 시점을 기준으로 정렬되어 나타납니다. 가장 아래에 위치한 항목이 가장 최근의 백업 지점입니다.
 
@@ -279,7 +279,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 
 복원이 완료되면 아래 그림과 같은 메시지가 나타납니다. 전원을 재투입하면 정상적인 사용이 가능해집니다.
 
-![그림 2.5 복원 완료](<../_assets/restored_reboot.png>)
+![그림. 복원 완료](<../_assets/restored_reboot.png>)
 # 산업안전보건기준에 관한 규칙 및 안전검사 고시
 
 당해 산업용 로봇은 산업안전보건기준에 관한 규칙 및 안전검사 고시(검사 대상일 경우)의 검사 기준을 고려하여 설치하여야 한다.
