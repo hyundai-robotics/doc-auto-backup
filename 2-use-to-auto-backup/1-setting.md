@@ -4,7 +4,7 @@
 
 ![그림. 자동 백업 및 복원 화면](<../_assets/auto-backup.png>)
 
-`[F2: 백업]` 버튼을 누르면, 설정에 관계없이 즉시 백업이 수행됩니다.
+`[F2: 지금 백업]` 버튼을 누르면, 설정에 관계없이 즉시 백업이 수행됩니다. (자동백업 보관장소 만은 현재 저장된 설정을 따릅니다.)
 
 화면의 항목들을 설정한 후 `[확인]` 버튼을 누르면, 설정값들이 저장/적용됩니다. 각 항목의 의미는 다음 표와 같습니다.
 
@@ -31,11 +31,11 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 <tbody>
 	<tr>
 		<td>
-			자동 백업 사용
+			자동백업 보관장소
 		</td>
 		<td colspan="2">
-			무효: 자동 백업 기능을 끄기
-			유효: 자동 백업 기능을 켜기
+			TP: 티치펜던트의 저장장치(storage)에 백업할 지 여부.<br>
+			MAIN: 메인모듈(COM)의 스토리지에 백업할 지 여부.
 		</td>
 		<td>
 			-
@@ -46,7 +46,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 			최대 백업 버전수
 		</td>
 		<td colspan="2">
-			최대 몇 개의 백업 지점을 관리할 것인지를 설정.<br /> 지정한 개수이상으로 백업이 수행될 때는 가장 오래된 백업 지점이 삭제됩니다.
+			최대 몇 개의 백업 지점을 관리할 것인지를 설정.<br/> 지정한 개수이상으로 백업이 수행될 때는 가장 오래된 백업 폴더들이 삭제됩니다.
 		</td>
 		<td>
 			1~100
@@ -57,7 +57,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 			백업 시간
 		</td>
 		<td colspan="2">
-			매일 혹은 특정 요일의 특정 시간에 백업이 자동으로 수행되도록 설정합니다. 최대 4개의 스케줄을 입력할 수 있습니다. 사용하지 않는 스케줄은 미지정으로 선택하십시오.
+			매일 혹은 특정 요일의 특정 시간에 백업이 자동으로 수행되도록 설정합니다. 최대 4개의 스케줄을 입력할 수 있습니다. 사용하지 않는 스케줄은 체크를 끄십시오.
 		</td>
 		<td>
 			00:00
@@ -107,7 +107,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 			(백업실행)
 		</td>
 		<td colspan="2">
-			지정한 입력신호가 켜지면, 백업을 실행합니다.
+			지정한 입력신호가 켜지는 순간, 백업을 실행합니다.
 		</td>
 		<td>
 			-
@@ -148,9 +148,6 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 <thead>
 	<tr>
 		<th>
-			신호 종류
-		</th>
-		<th>
 			설정 예
 		</th>
 		<th>
@@ -161,25 +158,18 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 <tbody>
 	<tr>
 		<td>
-			논리신호 (PLC ON시)
-			하드와이어드 신호 (PLC OFF시)
-		</td>
-		<td>
 			135
 		</td>
 		<td>
-			135 (135번 신호)
+			135 (do135, 혹은 di135)
 		</td>
 	</tr>
 	<tr>
 		<td>
-			필드버스
-		</td>
-		<td>
 			5.220
 		</td>
 		<td>
-			fb5.220 (fb5의 220번 신호)
+			fb5.220 (fb5의 do220, 혹은 di220)
 		</td>
 	</tr>
 </tbody>

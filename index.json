@@ -31,22 +31,22 @@
 	},
 	{
 		"link": "2-use-to-auto-backup/2-execute-auto-backup.md",
-		"char_ofs": 3039,
+		"char_ofs": 3025,
 		"byte_ofs": 5101
 	},
 	{
 		"link": "2-use-to-auto-backup/3-restoration.md",
-		"char_ofs": 4033,
-		"byte_ofs": 6752
+		"char_ofs": 4229,
+		"byte_ofs": 6999
 	},
 	{
 		"link": "appendices/rules-occupational-safety.md",
-		"char_ofs": 4459,
-		"byte_ofs": 7645
+		"char_ofs": 4672,
+		"byte_ofs": 7935
 	},
 	{
 		"link": "quality-assurance.md",
-		"char_ofs": 4679,
-		"byte_ofs": 8043
+		"char_ofs": 4892,
+		"byte_ofs": 8333
 	}
 ]

@@ -4,11 +4,13 @@
 
 백업 중엔 화면에 아래 그림과 같은 메시지박스가 나타납니다. 완료 메시지가 나올 때까지 조작을 멈추고 기다려주십시오.
 
-![](<../_assets/backup_st.png>)
+![](../_assets/backup_st.png)
 
-![그림. 자동백업 메시지박스](<../_assets/backup_en.png>)
+![](../_assets/backup_doing.png)
 
-백업되는 위치는 메인보드 내의 아래 경로입니다.
+![](../_assets/backup_en.png)
+
+백업되는 위치는 티치펜던트 혹은 메인 모듈 내의 아래 경로입니다.
 
 <style type="text/css">
 table  {border-collapse:collapse;}
@@ -19,7 +21,18 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 <table>
 	<tr>
 		<td class='grayed'>
-			<p>경로명</p>
+			<p>경로명 - TP</p>
+		</td>
+		<td>
+			<p>/usr/share/hyundai/hi6/backup/ts/</p>
+		</td>
+		<td>
+			<p>파일관리자 화면에서 TP 항목 밑의 backup/ts/</p>
+		</td>
+	</tr>
+	<tr>
+		<td class='grayed'>
+			<p>경로명 - MAIN</p>
 		</td>
 		<td>
 			<p>/ata0:2/lib/hi6/backup/ts/</p>
