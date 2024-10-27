@@ -2,7 +2,8 @@
     "langCode": "ko",
     "series": "현대로봇 Hi6 제어기",
     "title": "기능설명서 - 자동 백업",
-    "publisher": "현대로보틱스",
+    "publisher": "HD현대로보틱스",
+    "manualReleaseDate": "2023.06.13",
     "tocTitle": "목차",
     "tocTitleElements": "[ \"h1\", \"h2\" ]"
 }
